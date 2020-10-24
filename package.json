@@ -1,5 +1,5 @@
 {
-  "name": "a-hex-clock",
+  "name": "@sirius-33/a-hex-clock",
   "version": "0.0.1",
   "description": "a hex clock inspired by the hexclock.exe clue found in Hacknet for use on your website or in any way you could imagine",
   "main": "index.js",
