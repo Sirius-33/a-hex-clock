@@ -45,7 +45,7 @@ copyFileMulti("src/css", "./src/css");
 
 
 
-exec("npm i -D gulp gulp-clean-css gulp-connect gulp-sass", function (err, stdout, stderr) {
+exec("npm i -D mkdirp", function (err, stdout, stderr) {
     if (err) {
         console.log(err);
         process.exit(1);

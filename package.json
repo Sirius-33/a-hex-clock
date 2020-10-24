@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "a hex clock inspired by the hexclock.exe clue found in Hacknet for use on your website or in any way you could imagine",
   "main": "index.js",
+  "dependencies": {
+    "mkdirp": "^1.0.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
