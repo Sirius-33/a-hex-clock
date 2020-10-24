@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sirius-33/a-hex-clock.git"
+    "url": "git://github.com/Sirius-33/a-hex-clock.git"
   },
   "keywords": [
     "hex",
