@@ -1,0 +1,31 @@
+{
+  "name": "a-hex-clock",
+  "version": "0.0.1",
+  "description": "a hex clock inspired by the hexclock.exe clue found in Hacknet for use on your website or in any way you could imagine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sirius-33/a-hex-clock.git"
+  },
+  "keywords": [
+    "hex",
+    "clock",
+    "hexclock",
+    "beginners",
+    "project",
+    "road",
+    "to",
+    "dev",
+    "life",
+    "Hacktober"
+  ],
+  "author": "Daniel Hjermitslev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sirius-33/a-hex-clock/issues"
+  },
+  "homepage": "https://github.com/Sirius-33/a-hex-clock#readme"
+}
