@@ -1,5 +1,5 @@
 {
-  "name": "@sirius-33/a-hex-clock",
+  "name": "a-hex-clock",
   "version": "0.0.1",
   "description": "a hex clock inspired by the hexclock.exe clue found in Hacknet for use on your website or in any way you could imagine",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Sirius-33/a-hex-clock.git"
+    "url": "git+https://github.com/Sirius-33/a-hex-clock.git"
   },
   "keywords": [
     "hex",
