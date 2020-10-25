@@ -27,18 +27,21 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  flex-wrap: nowrap;
+  align-content: center;
+  vertical-align: baseline;
 }
 
 .hexClock__txt {
   font-family: 'Share Tech Mono', monospace;
   font-size: 10px;
-  grid-area: app;
+  align-self: center;
+
 }
 
 .hexClock__txt--ip {
   font-family: 'Share Tech Mono', monospace;
   font-size: 10px;
+  align-self: center;
 }
 
 #hexClock__container {
