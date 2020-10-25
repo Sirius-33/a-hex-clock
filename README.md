@@ -24,7 +24,7 @@ To install, type this in your terminal:
 npx a-hex-clock
 ```
 
-## Contributing to <project_name>
+## Contributing to this project
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
 To contribute to <project_name>, follow these steps:
 
