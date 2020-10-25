@@ -1,4 +1,4 @@
-0.0.3 is a pre-release and not working version
+0.0.4 is a pre-release and not working version
 # A-hex-🕘
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
@@ -24,9 +24,20 @@ To install, type this in your terminal:
 npx a-hex-clock
 ```
 
+Afterwards you are going to want copy the code to your desired location of the module. Here's the src link's for stylesheet and script - just to save you some time ;)
+```html
+<link rel="stylesheet" href="../css/hexClock.css">
+<script src="../js/hexClock.js" defer></script>
+
+if above doesn't work:
+<link rel="stylesheet" href="./src/css/hexClock.css">
+<script src="./src/js/hexClock.js" defer></script>
+
+comments will explain where you can apply your own styling / theme.
+```
 ## Contributing to this project
 <!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
-To contribute to <project_name>, follow these steps:
+To contribute to A Hex 🕘, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
