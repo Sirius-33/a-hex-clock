@@ -1,7 +1,24 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*make the body occupy full height*/
+html,
+body {
+  height: 100%;
+  background-color: aqua;
+}
+
 /* HexClock styling */
 
+/* Add a font of your choice - I went with Major Mono Display */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
 #hexClock {
-  color:#FFF;
-  font: 48px
+  color: #FFF;
+  font: 3rem;
+  font-family: 'Major Mono Display, monospace';
 
 }
