@@ -13,36 +13,38 @@
   z-index: 1;
   color: #FFF;
   font: 33rem;
-  height: 150px;
+  height: 100%;
   font-family: 'Major Mono Display', monospace;
-}
-
-#hexClock__container{
-  z-index: -1;
-  width: 248px;
-  height: 52px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 14px 150px;
-  grid-template-areas: 
-  "app . ip"
-  "clock";
 }
 
 .hexClock__header {
   height: 14px;
+  width: 248px;
+  border: 1px solid gray;
+}
+
+.hexClock__header--txt{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .hexClock__txt {
   font-family: 'Share Tech Mono', monospace;
   font-size: 10px;
+  grid-area: app;
 }
 
-/* Flicker effect */
+.hexClock__txt--ip {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+}
+
 #hexClock__container {
+  z-index: -1;
+  width: 248px;
+  height: 52px;
   font-family: 'Major Mono Display', monospace;
   background: #111;
   color: #eee;
@@ -54,11 +56,13 @@
   animation-direction: alternate;
 }
 
+/* Flicker effect */
 @keyframes textFlicker {
 from {
-text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+text-shadow: 1px 0 0 #ea36af, -1px 0 0 #75fa69;
 }
 to {
 text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
 }
 }
+
