@@ -1,4 +1,4 @@
-* {
+* { /* Global settings just for development - delete them ater adding to your own project */
   box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
