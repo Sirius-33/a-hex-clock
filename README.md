@@ -14,14 +14,16 @@ As time goes by the clock will change according to the hex code displayed.
 Before you begin, ensure you have met the following requirements:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 * You have installed the latest version of `npm`
+* You have installed the latest version of `node.js`
 
 ## Installing <a_hex_clock>
 
 To install, type this in your terminal:
 
 
-```
-npx a-hex-clock
+```py
+$ npm init
+$ npx a-hex-clock
 ```
 
 Afterwards you are going to want copy the code to your desired location of the module. Here's the src link's for stylesheet and script - just to save you some time ;)
