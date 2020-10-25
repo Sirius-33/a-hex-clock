@@ -15,6 +15,7 @@ function displayTime() {
 	if(m <= 9) m = '0'+m;
 	if(s <= 9) s = '0'+s;
 	
+	// Delete the "#" in the concat if you just want the clock numbers - or replace it with a symbol / letter of your choice
 	color = "#"+h+m+s;
 	//set background color
 	document.getElementById("hexClock__container").style.background = color;
