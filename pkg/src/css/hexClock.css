@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 /* HexClock styling */
 
@@ -21,8 +21,12 @@
   z-index: -1;
   width: 248px;
   height: 52px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 14px 150px;
+  grid-template-areas: 
+  "app . ip"
+  "clock";
 }
 
 .hexClock__header {
