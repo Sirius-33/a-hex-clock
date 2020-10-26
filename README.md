@@ -1,4 +1,4 @@
-0.1.3 is a pre-release and not working version
+0.1.4 is a pre-release - more will be added
 # A-hex-🕘
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
