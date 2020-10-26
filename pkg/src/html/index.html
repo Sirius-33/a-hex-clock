@@ -5,7 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/hexClock.css">
   <script src="../js/hexClock.js" defer></script>
-  <script src="https://api.ipify.org?format=jsonp&callback=getIP"></script> <!-- Optional if you want header to show user's ip -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+  <script> 
+    /* Add "https://api.ipify.org?format=json" statement 
+       this will communicate with the ipify servers in 
+       order to retrieve the IP address $.getJSON will 
+       load JSON-encoded data from the server using a 
+       GET HTTP request */ 
+
+    $.getJSON("https://api.ipify.org?format=json", 
+      function(data) { 
+      // Setting text of element P with id gfg 
+      $(".hexClock__txt--ip").html(data.ip); 
+    }) 
+</script> 
+  <!-- Optional if you want HexClock header to show user's ip -->
   <title>HexClock Module</title>
 </head>
 <body>

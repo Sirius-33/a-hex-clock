@@ -28,8 +28,3 @@ function displayTime() {
 
 // We call our clock function
 	displayTime();
-	
-// IP function (optional delete the ip from html)
-function getIP(json) {
-	document.getElementsByClassName(".hexClock__txt--ip").innerHTML = json.ip;
-}
