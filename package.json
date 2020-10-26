@@ -1,6 +1,6 @@
 {
   "name": "a-hex-clock",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "a hex clock inspired by the hexclock.exe clue found in Hacknet for use on your website or in any way you could imagine",
   "main": "index.js",
   "dependencies": {
