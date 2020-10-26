@@ -14,10 +14,12 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 #hexClock {
-  height: 100%;
   color: #FFF;
   font-size: 1.5rem;
   font-family: 'Major Mono Display', monospace;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
 }
 
 .hexClock__header {
@@ -26,43 +28,32 @@ body {
   border-bottom: 2px solid gray;
   position: relative;
   background: rgb(51,42,68);
-background: -moz-linear-gradient(90deg, rgba(51,42,68,1) 0%, rgba(54,45,71,1) 37%, rgba(51,42,68,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(51,42,68,1) 0%, rgba(54,45,71,1) 37%, rgba(51,42,68,1) 100%);
-background: linear-gradient(90deg, rgba(51,42,68,1) 0%, rgba(54,45,71,1) 37%, rgba(51,42,68,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#332a44",endColorstr="#332a44",GradientType=1);
-}
-
-.hexClock__header--txt{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  line-height: 0.73em;
-  vertical-align: middle;
+  background: -moz-linear-gradient(90deg, rgba(51,42,68,1) 0%, rgba(54,45,71,1) 37%, rgba(51,42,68,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(51,42,68,1) 0%, rgba(54,45,71,1) 37%, rgba(51,42,68,1) 100%);
+  background: linear-gradient(90deg, rgba(51,42,68,1) 0%, rgba(54,45,71,1) 37%, rgba(51,42,68,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#332a44",endColorstr="#332a44",GradientType=1);
 }
 
 .hexClock__txt {
   font-family: 'Share Tech Mono', monospace;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .hexClock__txt--app {
   position: absolute;
   left: 0;
-  font-size: 10px;
 }
 
 .hexClock__txt--ip {
   position: absolute;
   right: 0;
-  font-size: 10px;
 }
 
 #hexClock__container {
-  width: 248px;
-  height: 52px;
-  font-family: 'Major Mono Display', monospace;
-  border-bottom: 2px solid gray;
-  background: #111;
+  width: 15.5rem;
+  height: 3.25rem;
+  outline: 1px solid #8FA8C4;
+  text-align: center;
   color: #eee;
   animation-duration: 0.01s;
   animation-name: textFlicker;
@@ -71,7 +62,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#332a44",endCo
   text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
 }
 
-/* Flicker effect */
+/* CRT Flicker effect */
 @keyframes textFlicker {
 from {
 text-shadow: 1px 0 0 #ea36af, -1px 0 0 #75fa69;
