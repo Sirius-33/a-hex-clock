@@ -21,7 +21,7 @@ Before you begin, ensure you have met the following requirements:
 To install, type this in your terminal:
 
 
-```py
+```
 $ npm init
 $ npx a-hex-clock
 ```

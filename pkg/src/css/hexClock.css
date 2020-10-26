@@ -14,11 +14,9 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 #hexClock {
-  z-index: 1;
+  height: 100%;
   color: #FFF;
   font-size: 1.5rem;
-  text-align: center;
-  height: 100%;
   font-family: 'Major Mono Display', monospace;
 }
 
@@ -60,18 +58,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#332a44",endCo
 }
 
 #hexClock__container {
-  border-bottom: 2px solid gray;
-  z-index: -1;
   width: 248px;
   height: 52px;
   font-family: 'Major Mono Display', monospace;
+  border-bottom: 2px solid gray;
   background: #111;
   color: #eee;
-  text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
   animation-duration: 0.01s;
   animation-name: textFlicker;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
 }
 
 /* Flicker effect */
