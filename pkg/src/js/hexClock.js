@@ -27,4 +27,5 @@ function displayTime() {
 }
 
 // We call our clock function
-  displayTime();
+	displayTime();
+	
