@@ -3,6 +3,10 @@
   padding: 0;
   margin: 0 auto;
 }
+body {
+  margin: 50px;
+  background-color: #111
+}
 /* HexClock styling */
 
 /* Add a font of your choice - I went with Major Mono Display */
@@ -12,7 +16,8 @@
 #hexClock {
   z-index: 1;
   color: #FFF;
-  font: 33rem;
+  font-size: 1.5rem;
+  text-align: center;
   height: 100%;
   font-family: 'Major Mono Display', monospace;
 }
@@ -20,31 +25,42 @@
 .hexClock__header {
   height: 14px;
   width: 248px;
-  border: 1px solid gray;
+  border-bottom: 2px solid gray;
+  position: relative;
+  background: rgb(51,42,68);
+background: -moz-linear-gradient(90deg, rgba(51,42,68,1) 0%, rgba(54,45,71,1) 37%, rgba(51,42,68,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(51,42,68,1) 0%, rgba(54,45,71,1) 37%, rgba(51,42,68,1) 100%);
+background: linear-gradient(90deg, rgba(51,42,68,1) 0%, rgba(54,45,71,1) 37%, rgba(51,42,68,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#332a44",endColorstr="#332a44",GradientType=1);
 }
 
 .hexClock__header--txt{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  align-content: center;
-  vertical-align: baseline;
+  line-height: 0.73em;
+  vertical-align: middle;
 }
 
 .hexClock__txt {
   font-family: 'Share Tech Mono', monospace;
   font-size: 10px;
-  align-self: center;
+}
 
+.hexClock__txt--app {
+  position: absolute;
+  left: 0;
+  font-size: 10px;
 }
 
 .hexClock__txt--ip {
-  font-family: 'Share Tech Mono', monospace;
+  position: absolute;
+  right: 0;
   font-size: 10px;
-  align-self: center;
 }
 
 #hexClock__container {
+  border-bottom: 2px solid gray;
   z-index: -1;
   width: 248px;
   height: 52px;
@@ -52,7 +68,6 @@
   background: #111;
   color: #eee;
   text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
-  letter-spacing: 0.125em;
   animation-duration: 0.01s;
   animation-name: textFlicker;
   animation-iteration-count: infinite;
