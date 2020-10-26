@@ -100,7 +100,7 @@ text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
   z-index: 2147483648;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(51%, rgba(0, 0, 0, 0.3)));
   background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.3) 51%);
-  background-size: 100% 1px; /* Change the size of the scanlines here */
+  background-size: 100% 0.0938rem; /* Change the size of the scanlines here */
   -webkit-animation: scanlines 1s steps(60) infinite;
           animation: scanlines 1s steps(60) infinite;
 }
