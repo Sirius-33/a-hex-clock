@@ -58,4 +58,4 @@ If you want to contact me you can reach me at <danielhjermitslev@protonmail.com>
 This project uses the following license: MIT.
 
 
-clock is ready in it's basic form - more to be added
+clock is ready in it's basic form - more themes will be added
