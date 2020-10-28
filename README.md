@@ -1,4 +1,4 @@
-0.1.5 is a pre-release - clock is ready in it's basic form - more to be added
+
 # A-hex-🕘
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
@@ -56,3 +56,6 @@ If you want to contact me you can reach me at <danielhjermitslev@protonmail.com>
 
 ## License
 This project uses the following license: MIT.
+
+
+clock is ready in it's basic form - more to be added
