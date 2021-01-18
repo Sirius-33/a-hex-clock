@@ -50,10 +50,6 @@ To contribute to A Hex 🕘, follow these steps:
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
-## Contact
-
-If you want to contact me you can reach me at <danielhjermitslev@protonmail.com>.
-
 ## License
 This project uses the following license: MIT.
 
