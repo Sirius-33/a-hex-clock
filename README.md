@@ -5,7 +5,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/sirius-33/a-hex-clock)![GitHub contributors](https://img.shields.io/github/contributors/sirius-33/a-hex-clock)![GitHub stars](https://img.shields.io/github/stars/sirius-33/a-hex-clock?style=social)![GitHub forks](https://img.shields.io/github/forks/sirius-33/a-hex-clock?style=social)
 
 
-a-hex-clock is a `feature` that allows `everyone` to easily `add a color changing real-time clock to anywhere on their website or app`.
+a-hex-clock is a `feature` that allows `everyone` to easily add a color changing real-time clock to anywhere on their website or app.
 
 As time goes by the clock will change according to the hex code displayed.
 
