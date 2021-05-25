@@ -1,6 +1,6 @@
 {
   "name": "a-hex-clock",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "a hex clock inspired by the hexclock.exe clue found in Hacknet for use on your website or in any way you could imagine",
   "main": "index.js",
   "devDependencies": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sirius-33/a-hex-clock.git"
+    "url": "git+https://github.com/danielniemann33/a-hex-clock.git"
   },
   "keywords": [
     "hex",
@@ -26,10 +26,10 @@
     "fun project",
     "ilovespacex"
   ],
-  "author": "Daniel Hjermitslev",
+  "author": "Daniel Niemann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sirius-33/a-hex-clock/issues"
+    "url": "https://github.com/danielniemann33/a-hex-clock/issues"
   },
-  "homepage": "https://github.com/Sirius-33/a-hex-clock#readme"
+  "homepage": "https://github.com/danielniemann33/a-hex-clock#readme"
 }
